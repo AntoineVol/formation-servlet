@@ -1,0 +1,14 @@
+<!-- <?xml version="1.0" encoding="UTF-8"?> -->
+<!-- Fichier de déscription d'application web  -->
+<web-app version="3.1">
+	<!-- Description d'une servlet avec sa classe associé -->
+	<servlet>
+		<servlet-name>PronoServlet</servlet-name>
+		<servlet-class>fr.antoinevol.monpronostique.web.PronoServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>PronoServlet</servlet-name>
+		<url-pattern>/france-australie</url-pattern>
+	</servlet-mapping>
+</web-app>
